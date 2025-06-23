@@ -1,0 +1,100 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 40px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #0d47a1;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #0d47a1;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #1e88e5;
+  padding-bottom: 5px;
+  width: 100%;
+  max-width: 900px;
+}
+
+section {
+  background: #fff;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.12);
+  width: 100%;
+  max-width: 900px;
+  box-sizing: border-box;
+}
+
+form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  margin-bottom: 30px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #90caf9;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #1e88e5;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+.teacher-card, .student-card, .appointment-card, .request-card {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+}
+
+.teacher-card button {
+  margin-left: 15px;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.request-card p {
+  margin: 5px 0;
+}
+
+.request-card div button {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  section {
+    padding: 15px 20px;
+    max-width: 100%;
+  }
+}
