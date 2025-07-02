@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+      background: #f1f8ff;
+    }
+    h2, h3 {
+      color: #0d47a1;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 10px auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 600px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      background: #1976d2;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0d47a1;
+    }
+    @media (max-width: 600px) {
+      .card {
+        font-size: 14px;
+        padding: 12px;
+      }
+      button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2>Student Dashboard</h2>
+  <div id="teacher-list"></div>
+  <div id="appointment-status"></div>
+  <script type="module" src="student-dashboard.js"></script>
+</body>
+</html>
